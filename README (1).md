@@ -67,7 +67,7 @@ The **Contact page** provides a contact form that allows users to reach out to t
 You can clone the repository to your local machine by running the following command:
 
 ```bash
-git clone https://github.com/AbishekSathiyan/greenden-website.git
+https://github.com/Nivindhan/Greenden-clone
 ```
 
 ### 2. Open the HTML Files

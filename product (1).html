@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products Page</title>
+  <link rel="icon" href="./Assets/Title.png" type="image/png">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <!-- Navbar -->
+  <header class="bg-green-200 shadow-lg">
+    <div class="container mx-auto flex justify-between items-center p-4">
+      <h1 class="text-xl font-bold text-black-800">GREENDEN</h1>
+      <nav>
+        <ul class="flex space-x-4">
+          <li><a href="index.html" class="hover:underline">Home</a></li>
+          <li><a href="product.html" class="hover:underline">Products</a></li>
+          <li><a href="contact.html" class="hover:underline">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Search Bar -->
+  <section class="py-6">
+    <div class="container mx-auto text-center">
+      <h2 class="text-2xl font-bold mb-4">Our Products</h2>
+      <input
+        type="text"
+        placeholder="Search for a Product..."
+        class="w-1/2 px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500"
+      />
+    </div>
+  </section>
+
+  <!-- Products Grid -->
+<section class="py-6">
+  <div class="container mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
+    <!-- Product Card 1 -->
+    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+      <img src="./Assets/bestseller_1.png" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="Rose Plant">
+      <div class="p-4">
+        <h3 class="text-lg font-semibold">Rose Plant</h3>
+        <p class="text-gray-600">$20</p>
+      </div>
+    </div>
+    <!-- Product Card 2 -->
+    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+      <img src="./Assets/bestseller_2.png" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="Lily Plant">
+      <div class="p-4">
+        <h3 class="text-lg font-semibold">Lily Plant</h3>
+        <p class="text-gray-600">$20</p>
+      </div>
+    </div>
+    <!-- Product Card 3 -->
+    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+      <img src="./Assets/bestseller_3.png" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="Hibiscus Rose">
+      <div class="p-4">
+        <h3 class="text-lg font-semibold">Hibiscus Rose</h3>
+        <p class="text-gray-600">$20</p>
+      </div>
+    </div>
+    <!-- Product Card 4 -->
+    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+      <img src="./Assets/bestseller_4.png" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="New Pet Plant">
+      <div class="p-4">
+        <h3 class="text-lg font-semibold">New Pet Plant</h3>
+        <p class="text-gray-600">$20</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Footer Section -->
+  <section class="bg-green-100 p-10 flex flex-col gap-5 text-center">
+    <h1 class="text-4xl font-bold">Greenden</h1>
+    <p>The Standard chunk of Lorem ipsum dolor sit amet consectetur.</p>
+    <p>&copy; 2024 Greenden_Abi. All Rights Reserved.</p>
+  </section>
+</body>
+</html>
